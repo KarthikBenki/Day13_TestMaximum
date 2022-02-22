@@ -9,8 +9,8 @@ public class TestMaximum{
         this.z = z;
     }
 //checking max of three integers
-    public static Integer testMaximum(Integer x,Integer y,Integer z){
-        Integer max=x;//initialising x as greater
+    public static Float testMaximum(Float x,Float y,Float z){
+        Float max=x;//initialising x as greater
         if(y.compareTo(max)>0)
             max=y;//as of now y is greater
 
@@ -20,7 +20,7 @@ public class TestMaximum{
         return max;
 
     }
-    public static void printMax(Integer x,Integer y,Integer z,Integer max){
+    public static void printMax(Float x,Float y,Float z,Float max){
         System.out.printf("the max of %s , %s and %s is %s\n",x,y,z,max);
     }
 }
