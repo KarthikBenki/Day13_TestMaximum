@@ -1,16 +1,16 @@
 package com.blz.demo;
 
 public class TestMaximum{
-    int x,y,z;
+    String x,y,z;
 //constructor
-    public TestMaximum(int x, int y, int z) {
+    public TestMaximum(String x, String y, String z) {
         this.x = x;
         this.y = y;
         this.z = z;
     }
 //checking max of three integers
-    public static Float testMaximum(Float x,Float y,Float z){
-        Float max=x;//initialising x as greater
+    public static String testMaximum(String x,String y,String z){
+        String max=x;//initialising x as greater
         if(y.compareTo(max)>0)
             max=y;//as of now y is greater
 
@@ -20,7 +20,7 @@ public class TestMaximum{
         return max;
 
     }
-    public static void printMax(Float x,Float y,Float z,Float max){
+    public static void printMax(String x,String y,String z,String max){
         System.out.printf("the max of %s , %s and %s is %s\n",x,y,z,max);
     }
 }
