@@ -1,7 +1,7 @@
 package com.blz.demo;
 
 public class TestMaximum <T extends Comparable<T>>{
-    T x,y,z;
+    private T x,y,z;
 //constructor
     public TestMaximum(T x, T y, T z) {
         this.x = x;
